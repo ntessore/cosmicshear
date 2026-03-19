@@ -1,8 +1,13 @@
 __all__ = [
     "chi_from_epsilon",
+    "distance",
     "epsilon_from_chi",
-    "transform",
+    "exponential_map",
     "inverse_transform",
+    "isometry",
+    "mean",
+    "normal_coordinates",
+    "transform",
 ]
 
 from ._ellipticity import (
@@ -10,4 +15,12 @@ from ._ellipticity import (
     epsilon_from_chi,
     transform,
     inverse_transform,
+)
+
+from ._manifold import (
+    distance,
+    exponential_map,
+    isometry,
+    mean,
+    normal_coordinates,
 )
